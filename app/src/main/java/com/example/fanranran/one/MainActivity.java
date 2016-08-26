@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+
+                Toast.makeText(getApplicationContext(),"zzzz",Toast.LENGTH_SHORT);
+
             }
         });
     }
